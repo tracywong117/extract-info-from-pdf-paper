@@ -11,12 +11,19 @@ pip3 install -r requirementx.txt
 ```plaintext
 python3 extract-text-image.py
 ```
+Check out output folder for the result of extraction of this script.
 
+### Note
 Change the input and output file path in the Python script.
 ```python
 pdf_path = "2305.02301.pdf"
 out_text_path = "output/2305.02301.txt" 
 ```
 
-Check out output folder for the result of extraction of this script.
+### TODO: extract latex
+- [ ] 1. extract latex formula image
+- [ ] 2. use LaTeX-OCR for convert latex formula image to latex
+- [ ] 3. replace the plaintext formula in result with $$ latex $$
+
+### TODO: extract table
 
