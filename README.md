@@ -4,7 +4,7 @@ This Python script uses pdfminer.six, PyPDF2, pdf2image to extract information (
 
 ### Install dependencies
 ```
-pip3 install -r requirementx.txt
+pip3 install -r requirement.txt
 ```
 
 ### How to Run
@@ -27,3 +27,8 @@ out_text_path = "output/2305.02301.txt"
 
 ### TODO: extract table
 
+## Windows Usage
+1. Download the Windows version of poppler:https://github.com/oschwartz10612/poppler-windows/releases
+2. After decompression, move the "poppler-23.11.0" subfolder to C:\Program Files.
+3. Add environment variable: "C:\Program Files\poppler-23.11.0\Library\bin", save and exit
+4. run

@@ -72,5 +72,5 @@ if __name__ == "__main__":
             text_per_page[dctkey] = [page_content]
 
     for i in range(total_pages):
-        with open(out_text_path, "a") as f:
+        with open(out_text_path, "a", encoding='utf-8') as f:
             f.write("".join(text_per_page[f"Page_{i+1}"][0]))
